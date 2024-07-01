@@ -28,8 +28,10 @@ Live tableau dashboard that refreshes on a daily cadence and displays
 Update 6/30/2024:
 
 Initial proposal could not be implemented due to Docker repeatedly failing in my Windows10 laptop.
-After long struggles, I finally decided I would  replicate an existing AWS project explained in Youtube. I watched parts 1,2, & 3 of this Zillow API project in tuplespectra channel - https://www.youtube.com/watch?v=j_skupZ3zw0, https://www.youtube.com/watch?v=TvoiQ8Z1lGA, https://www.youtube.com/watch?v=Hfu3E0zLYDQ
-I created an AWS account for the purpose of the project and deployed Ec2 instance, S3 buckets, used Lambda functions, Redshift cluster and QuickSight.
+After long struggles, I finally decided I would  replicate an existing AWS project explained in Youtube. I watched parts 1,2, & 3 of this Zillow API project in tuplespectra channel  - https://www.youtube.com/watch?v=j_skupZ3zw0, https://www.youtube.com/watch?v=TvoiQ8Z1lGA, https://www.youtube.com/watch?v=Hfu3E0zLYDQ
+I created an AWS account for the purpose of the project and deployed EC2 instance, S3 buckets, used Lambda functions, Redshift cluster and QuickSight.
+Since I had to struggle with the SSH setup on Windows10 laptop, I could only use Product Category table from above Conceptual Data Model. Joining this table with other tables and analysing data will be done in later iterations of the project
+
 I accidentally deleted the scripts from EC2 instance while trying to push code to capstone public repository. Luckily, I had saved the project in my private repository which I am sharing here.
 
 Steps of the project:
