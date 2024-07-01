@@ -18,3 +18,5 @@
 2024-07-01 05:14:08.674 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
 2024-07-01 05:26:42.086 [error] Error: read ECONNRESET
 	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-07-01 05:27:56.271 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-01 05:27:56.273 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
