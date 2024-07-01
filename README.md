@@ -60,7 +60,7 @@ Live QuickSight dashboard named 'Amazon analysis' that refreshes on an hourly ca
 
 
 
-amazonanalytics.py is the main file which has Airflow DAG - amazon_analytics_dag which has an 'hourly' schedule interval. Brief explanation of the functions below:
+amazonanalytics.py is the main file which has Airflow DAG - amazon_analytics_dag which has an 'hourly' schedule interval. This file is in airflow--> dags folder. Brief explanation of the functions below:
 1. 'extract_amazon_data' reads data from api https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-amazon-data/playground/apiendpoint_7d5e4b9c-8c7b-4168-a303-e1e191d0745e and saves data as a json file in EC2 instance
 2. Within amazon_analytics_dag, first task named 'tsk_extract_amazon_data_var' extracts data from Rapid API by calling above function from step 1 and passing a set of arguments like API link, query string & API host key to produce a json file 
 3. Second task is named 'tsk_load_to_s3' which loads json file to S3 bucket named deevar-bucket
