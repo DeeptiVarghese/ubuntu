@@ -1,0 +1,32 @@
+[2024-06-25T19:21:02.146+0000] {processor.py:161} INFO - Started process (PID=16355) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:21:02.147+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-06-25T19:21:02.149+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:02.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:21:02.159+0000] {processor.py:840} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:21:02.290+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:02.289+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2024-06-25T19:21:02.355+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:02.355+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2024-06-25T19:21:02.367+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:02.366+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2024-06-25T19:21:02.367+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:02.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:21:02.380+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:02.380+0000] {dag.py:3118} INFO - Creating ORM DAG for example_trigger_target_dag
+[2024-06-25T19:21:02.381+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:02.381+0000] {dag.py:3954} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-06-25T19:21:02.405+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.265 seconds
+[2024-06-25T19:21:58.886+0000] {processor.py:161} INFO - Started process (PID=16406) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:21:58.888+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-06-25T19:21:58.890+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:58.889+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:21:58.897+0000] {processor.py:840} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:21:58.913+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:58.913+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:21:58.926+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:58.925+0000] {dag.py:3954} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-06-25T19:21:58.952+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.072 seconds
+[2024-06-25T19:22:47.578+0000] {processor.py:161} INFO - Started process (PID=16454) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:22:47.579+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-06-25T19:22:47.581+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:47.581+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:22:47.588+0000] {processor.py:840} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:22:47.605+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:47.604+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:47.617+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:47.617+0000] {dag.py:3954} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-06-25T19:22:47.642+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.070 seconds
+[2024-06-25T19:23:35.518+0000] {processor.py:161} INFO - Started process (PID=16505) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:23:35.520+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-06-25T19:23:35.522+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:35.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:23:35.529+0000] {processor.py:840} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-06-25T19:23:35.545+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:35.545+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:23:35.558+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:35.558+0000] {dag.py:3954} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-06-25T19:23:35.582+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.070 seconds

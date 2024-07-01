@@ -1,0 +1,47 @@
+[2024-06-26T04:34:48.960+0000] {processor.py:161} INFO - Started process (PID=20959) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:34:48.961+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-06-26T04:34:48.963+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:48.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:34:48.967+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:48.966+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-06-26T04:34:48.967+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:48.967+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-06-26T04:34:48.967+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:34:48.978+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2024-06-26T04:35:41.245+0000] {processor.py:161} INFO - Started process (PID=21013) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:35:41.247+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-06-26T04:35:41.248+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:41.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:35:41.252+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:41.251+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-06-26T04:35:41.252+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:41.252+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-06-26T04:35:41.252+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:35:41.264+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2024-06-26T04:36:37.857+0000] {processor.py:161} INFO - Started process (PID=21073) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:36:37.858+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-06-26T04:36:37.860+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:37.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:36:37.864+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:37.863+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-06-26T04:36:37.864+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:37.864+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-06-26T04:36:37.864+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T04:36:37.876+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2024-06-26T05:07:48.401+0000] {processor.py:161} INFO - Started process (PID=21275) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T05:07:48.402+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-06-26T05:07:48.404+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:48.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T05:07:48.412+0000] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T05:07:48.665+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:48.665+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:07:48.674+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:48.674+0000] {dag.py:3954} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-06-26T05:07:48.697+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.302 seconds
+[2024-06-26T05:08:42.197+0000] {processor.py:161} INFO - Started process (PID=21329) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T05:08:42.199+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-06-26T05:08:42.201+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:42.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T05:08:42.210+0000] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-06-26T05:08:42.243+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:42.243+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:42.258+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:42.257+0000] {dag.py:3954} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-06-26T05:08:42.284+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.093 seconds

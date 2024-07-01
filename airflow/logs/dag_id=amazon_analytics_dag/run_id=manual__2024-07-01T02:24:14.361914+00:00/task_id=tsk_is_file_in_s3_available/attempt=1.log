@@ -1,0 +1,21 @@
+[2024-07-01T02:24:45.092+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-01T02:24:45.102+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: amazon_analytics_dag.tsk_is_file_in_s3_available manual__2024-07-01T02:24:14.361914+00:00 [queued]>
+[2024-07-01T02:24:45.108+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: amazon_analytics_dag.tsk_is_file_in_s3_available manual__2024-07-01T02:24:14.361914+00:00 [queued]>
+[2024-07-01T02:24:45.108+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-07-01T02:24:45.123+0000] {taskinstance.py:2330} INFO - Executing <Task(S3KeySensor): tsk_is_file_in_s3_available> on 2024-07-01 02:24:14.361914+00:00
+[2024-07-01T02:24:45.130+0000] {standard_task_runner.py:63} INFO - Started process 50817 to run task
+[2024-07-01T02:24:45.133+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'amazon_analytics_dag', 'tsk_is_file_in_s3_available', 'manual__2024-07-01T02:24:14.361914+00:00', '--job-id', '336', '--raw', '--subdir', 'DAGS_FOLDER/amazonanalytics.py', '--cfg-path', '/tmp/tmpkg5do9zm']
+[2024-07-01T02:24:45.135+0000] {standard_task_runner.py:91} INFO - Job 336: Subtask tsk_is_file_in_s3_available
+[2024-07-01T02:24:45.174+0000] {task_command.py:426} INFO - Running <TaskInstance: amazon_analytics_dag.tsk_is_file_in_s3_available manual__2024-07-01T02:24:14.361914+00:00 [running]> on host ip-172-31-19-147.us-west-2.compute.internal
+[2024-07-01T02:24:45.256+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='deeptivarghese.education@gmail.com' AIRFLOW_CTX_DAG_OWNER='deeptv' AIRFLOW_CTX_DAG_ID='amazon_analytics_dag' AIRFLOW_CTX_TASK_ID='tsk_is_file_in_s3_available' AIRFLOW_CTX_EXECUTION_DATE='2024-07-01T02:24:14.361914+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-01T02:24:14.361914+00:00'
+[2024-07-01T02:24:45.256+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-01T02:24:45.269+0000] {baseoperator.py:400} WARNING - S3KeySensor.execute cannot be called outside TaskInstance!
+[2024-07-01T02:24:45.269+0000] {s3.py:117} INFO - Poking for key : s3://cleaned-data-zone-csv-bucket5/response_data_01072024022423.csv
+[2024-07-01T02:24:45.275+0000] {base.py:84} INFO - Using connection ID 'aws_s3_conn' for task execution.
+[2024-07-01T02:24:45.275+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_s3_conn', conn_type='aws') credentials retrieved from login and password.
+[2024-07-01T02:24:45.904+0000] {base.py:294} INFO - Success criteria met. Exiting.
+[2024-07-01T02:24:45.904+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-01T02:24:45.908+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=amazon_analytics_dag, task_id=tsk_is_file_in_s3_available, run_id=manual__2024-07-01T02:24:14.361914+00:00, execution_date=20240701T022414, start_date=20240701T022445, end_date=20240701T022445
+[2024-07-01T02:24:45.947+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-01T02:24:45.967+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-01T02:24:45.974+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

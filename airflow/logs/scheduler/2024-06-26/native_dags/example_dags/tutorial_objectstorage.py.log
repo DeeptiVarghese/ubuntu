@@ -1,0 +1,42 @@
+[2024-06-26T04:34:27.145+0000] {processor.py:161} INFO - Started process (PID=20936) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:34:27.146+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-26T04:34:27.147+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:27.147+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:34:27.158+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:34:27.166+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:27.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:34:27.180+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:27.180+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-26T04:34:27.205+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.066 seconds
+[2024-06-26T04:35:17.576+0000] {processor.py:161} INFO - Started process (PID=20990) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:35:17.577+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-26T04:35:17.579+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:17.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:35:17.587+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:35:17.689+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:17.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:35:17.700+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:17.700+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-26T04:35:17.723+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.153 seconds
+[2024-06-26T04:36:01.837+0000] {processor.py:161} INFO - Started process (PID=21034) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:36:01.838+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-26T04:36:01.840+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:01.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:36:01.849+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T04:36:01.866+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:01.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:36:01.879+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:01.879+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-26T04:36:01.903+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.073 seconds
+[2024-06-26T05:07:20.362+0000] {processor.py:161} INFO - Started process (PID=21252) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:07:20.363+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-26T05:07:20.365+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:20.365+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:07:20.376+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:07:20.386+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:20.385+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:07:20.399+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:20.399+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-26T05:07:20.425+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.069 seconds
+[2024-06-26T05:08:18.605+0000] {processor.py:161} INFO - Started process (PID=21304) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:08:18.606+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-26T05:08:18.608+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:18.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:08:18.616+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:08:18.773+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:18.773+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:18.794+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:18.793+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-26T05:08:18.828+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.229 seconds
+[2024-06-26T05:09:07.829+0000] {processor.py:161} INFO - Started process (PID=21355) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:09:07.831+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-26T05:09:07.833+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:07.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:09:07.842+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-26T05:09:07.860+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:07.860+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:09:07.874+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:07.874+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-26T05:09:07.905+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.082 seconds

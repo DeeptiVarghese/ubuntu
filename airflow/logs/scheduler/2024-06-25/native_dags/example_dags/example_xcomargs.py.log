@@ -1,0 +1,40 @@
+[2024-06-25T19:20:56.769+0000] {processor.py:161} INFO - Started process (PID=16350) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:20:56.770+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-25T19:20:56.771+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:56.771+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:20:56.784+0000] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:20:56.909+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:56.908+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-06-25T19:20:56.922+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:56.922+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-06-25T19:20:56.933+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:56.933+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-06-25T19:20:57.000+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:57.000+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-06-25T19:20:57.012+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:57.012+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-06-25T19:20:57.023+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:57.023+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-06-25T19:20:57.024+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:57.023+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-25T19:20:57.035+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:57.035+0000] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-06-25T19:20:57.036+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:57.036+0000] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args
+[2024-06-25T19:20:57.036+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:57.036+0000] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-25T19:20:57.037+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:20:57.037+0000] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-25T19:20:57.061+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.298 seconds
+[2024-06-25T19:21:54.444+0000] {processor.py:161} INFO - Started process (PID=16401) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:21:54.445+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-25T19:21:54.447+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:54.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:21:54.457+0000] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:21:54.476+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:54.476+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-25T19:21:54.489+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:54.489+0000] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-25T19:21:54.492+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:54.492+0000] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-25T19:21:54.514+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.076 seconds
+[2024-06-25T19:22:42.834+0000] {processor.py:161} INFO - Started process (PID=16449) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:22:42.836+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-25T19:22:42.838+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:42.837+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:22:42.847+0000] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:22:42.867+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:42.867+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-25T19:22:42.880+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:42.880+0000] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-25T19:22:42.884+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:42.883+0000] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-25T19:22:42.906+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.078 seconds
+[2024-06-25T19:23:21.122+0000] {processor.py:161} INFO - Started process (PID=16491) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:23:21.123+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-25T19:23:21.125+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:21.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:23:21.135+0000] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-25T19:23:21.155+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:21.155+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-25T19:23:21.169+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:21.169+0000] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-25T19:23:21.173+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:21.173+0000] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-25T19:23:21.197+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.081 seconds

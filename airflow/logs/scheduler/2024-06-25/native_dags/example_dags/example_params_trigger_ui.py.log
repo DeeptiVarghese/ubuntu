@@ -1,0 +1,25 @@
+[2024-06-25T19:21:21.952+0000] {processor.py:161} INFO - Started process (PID=16372) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:21:21.953+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-25T19:21:21.955+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:21.954+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:21:21.969+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:21:22.116+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:22.115+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2024-06-25T19:21:22.130+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:22.130+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2024-06-25T19:21:22.141+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:22.140+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2024-06-25T19:21:22.141+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:22.141+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:21:22.152+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:22.152+0000] {dag.py:3118} INFO - Creating ORM DAG for example_params_trigger_ui
+[2024-06-25T19:21:22.153+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:22.152+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-25T19:21:22.177+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.230 seconds
+[2024-06-25T19:22:16.918+0000] {processor.py:161} INFO - Started process (PID=16423) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:22:16.919+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-25T19:22:16.921+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:16.921+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:22:16.937+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:22:16.982+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:16.981+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:16.996+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:16.995+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-25T19:22:17.022+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.111 seconds
+[2024-06-25T19:23:05.241+0000] {processor.py:161} INFO - Started process (PID=16474) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:23:05.243+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-25T19:23:05.244+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:05.244+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:23:05.260+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-25T19:23:05.304+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:05.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:23:05.317+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:05.316+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-25T19:23:05.343+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.109 seconds

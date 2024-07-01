@@ -1,0 +1,42 @@
+[2024-06-26T04:34:26.502+0000] {processor.py:161} INFO - Started process (PID=20934) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:34:26.503+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-26T04:34:26.505+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:26.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:34:26.514+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:34:26.522+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:26.522+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:34:26.543+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:26.542+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-26T04:34:26.567+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2024-06-26T04:35:16.343+0000] {processor.py:161} INFO - Started process (PID=20988) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:35:16.344+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-26T04:35:16.346+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:16.346+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:35:16.353+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:35:16.456+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:16.455+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:35:16.475+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:16.474+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-26T04:35:16.498+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.161 seconds
+[2024-06-26T04:35:59.586+0000] {processor.py:161} INFO - Started process (PID=21032) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:35:59.588+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-26T04:35:59.590+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:59.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:35:59.596+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T04:35:59.613+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:59.613+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:35:59.634+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:59.634+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-26T04:35:59.658+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2024-06-26T05:07:19.821+0000] {processor.py:161} INFO - Started process (PID=21250) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:07:19.823+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-26T05:07:19.824+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:19.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:07:19.833+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:07:19.846+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:19.846+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:07:19.867+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:19.866+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-26T05:07:19.891+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2024-06-26T05:08:16.029+0000] {processor.py:161} INFO - Started process (PID=21302) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:08:16.030+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-26T05:08:16.032+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:16.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:08:16.038+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:08:16.164+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:16.164+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:16.192+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:16.192+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-26T05:08:16.220+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.198 seconds
+[2024-06-26T05:09:05.540+0000] {processor.py:161} INFO - Started process (PID=21353) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:09:05.541+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-26T05:09:05.543+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:05.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:09:05.550+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-06-26T05:09:05.569+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:05.568+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:09:05.591+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:05.591+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-26T05:09:05.617+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds

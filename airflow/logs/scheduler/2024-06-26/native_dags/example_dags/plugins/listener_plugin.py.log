@@ -1,0 +1,35 @@
+[2024-06-26T04:34:20.515+0000] {processor.py:161} INFO - Started process (PID=20928) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:34:20.516+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-26T04:34:20.517+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:20.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:34:20.520+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:34:20.532+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.022 seconds
+[2024-06-26T04:35:09.861+0000] {processor.py:161} INFO - Started process (PID=20982) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:35:09.862+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-26T04:35:09.864+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:09.863+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:35:09.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:35:09.877+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.022 seconds
+[2024-06-26T04:35:53.813+0000] {processor.py:161} INFO - Started process (PID=21026) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:35:53.815+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-26T04:35:53.816+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:53.816+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:35:53.819+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:35:53.830+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-06-26T04:36:31.553+0000] {processor.py:161} INFO - Started process (PID=21067) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:36:31.555+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-26T04:36:31.556+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:31.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:36:31.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T04:36:31.570+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-06-26T05:07:13.679+0000] {processor.py:161} INFO - Started process (PID=21240) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:07:13.681+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-26T05:07:13.682+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:13.682+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:07:13.685+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:07:13.697+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.028 seconds
+[2024-06-26T05:08:10.136+0000] {processor.py:161} INFO - Started process (PID=21295) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:08:10.140+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-26T05:08:10.142+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:10.141+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:08:10.145+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:08:10.157+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.027 seconds
+[2024-06-26T05:09:00.084+0000] {processor.py:161} INFO - Started process (PID=21347) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:09:00.086+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-26T05:09:00.089+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:00.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:09:00.092+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-26T05:09:00.107+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.030 seconds

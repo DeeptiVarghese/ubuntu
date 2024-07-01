@@ -1,0 +1,42 @@
+[2024-06-26T04:34:18.236+0000] {processor.py:161} INFO - Started process (PID=20922) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:34:18.237+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T04:34:18.239+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:18.239+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:34:18.242+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:18.242+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-26T04:34:18.242+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:34:18.253+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2024-06-26T04:35:07.583+0000] {processor.py:161} INFO - Started process (PID=20980) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:35:07.584+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T04:35:07.586+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:07.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:35:07.589+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:07.589+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-26T04:35:07.589+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:35:07.600+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2024-06-26T04:35:51.541+0000] {processor.py:161} INFO - Started process (PID=21024) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:35:51.543+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T04:35:51.545+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:51.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:35:51.548+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:51.548+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-26T04:35:51.548+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:35:51.559+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2024-06-26T04:36:30.001+0000] {processor.py:161} INFO - Started process (PID=21065) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:36:30.003+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T04:36:30.005+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:30.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:36:30.008+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:30.008+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-26T04:36:30.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T04:36:30.020+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2024-06-26T05:07:11.392+0000] {processor.py:161} INFO - Started process (PID=21237) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:07:11.393+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T05:07:11.395+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:11.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:07:11.398+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:11.398+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-26T05:07:11.399+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:07:11.411+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2024-06-26T05:08:08.390+0000] {processor.py:161} INFO - Started process (PID=21293) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:08:08.392+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T05:08:08.394+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:08.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:08:08.397+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:08.396+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-26T05:08:08.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:08:08.409+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2024-06-26T05:08:57.802+0000] {processor.py:161} INFO - Started process (PID=21345) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:08:57.804+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T05:08:57.806+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:57.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:08:57.809+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:57.808+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-26T05:08:57.809+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T05:08:57.822+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds

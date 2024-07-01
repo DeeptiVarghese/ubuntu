@@ -1,0 +1,56 @@
+[2024-06-28T04:57:58.365+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-28T04:57:58.379+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: amazon_analytics_dag.tsk_transfer_s3_to_redshift manual__2024-06-28T04:57:21.086850+00:00 [queued]>
+[2024-06-28T04:57:58.387+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: amazon_analytics_dag.tsk_transfer_s3_to_redshift manual__2024-06-28T04:57:21.086850+00:00 [queued]>
+[2024-06-28T04:57:58.387+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2024-06-28T04:57:58.404+0000] {taskinstance.py:2330} INFO - Executing <Task(S3ToRedshiftOperator): tsk_transfer_s3_to_redshift> on 2024-06-28 04:57:21.086850+00:00
+[2024-06-28T04:57:58.410+0000] {standard_task_runner.py:63} INFO - Started process 37388 to run task
+[2024-06-28T04:57:58.414+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'amazon_analytics_dag', 'tsk_transfer_s3_to_redshift', 'manual__2024-06-28T04:57:21.086850+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/amazonanalytics.py', '--cfg-path', '/tmp/tmp827qi781']
+[2024-06-28T04:57:58.416+0000] {standard_task_runner.py:91} INFO - Job 121: Subtask tsk_transfer_s3_to_redshift
+[2024-06-28T04:57:58.455+0000] {task_command.py:426} INFO - Running <TaskInstance: amazon_analytics_dag.tsk_transfer_s3_to_redshift manual__2024-06-28T04:57:21.086850+00:00 [running]> on host ip-172-31-19-147.us-west-2.compute.internal
+[2024-06-28T04:57:58.531+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='myemail@domain.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='amazon_analytics_dag' AIRFLOW_CTX_TASK_ID='tsk_transfer_s3_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-06-28T04:57:21.086850+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-28T04:57:21.086850+00:00'
+[2024-06-28T04:57:58.532+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-28T04:57:58.550+0000] {base.py:84} INFO - Using connection ID 'aws_s3_conn' for task execution.
+[2024-06-28T04:57:58.552+0000] {base.py:84} INFO - Using connection ID 'aws_s3_conn' for task execution.
+[2024-06-28T04:57:58.553+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_s3_conn', conn_type='aws') credentials retrieved from login and password.
+[2024-06-28T04:57:58.564+0000] {s3_to_redshift.py:193} INFO - Executing COPY command...
+[2024-06-28T04:57:58.567+0000] {base.py:84} INFO - Using connection ID 'conn_id_redshift' for task execution.
+[2024-06-28T04:57:59.561+0000] {sql.py:487} INFO - Running statement: 
+                    COPY PUBLIC.amazondata 
+                    FROM 's3://cleaned-data-zone-csv-bucket5/response_data_28062024045724.csv'
+                    credentials
+                    'aws_access_key_id=AKIAZQ3DOUDY5ZQWQYRC;aws_secret_access_key=***'
+                    
+                    csv IGNOREHEADER 1;
+        , parameters: None
+[2024-06-28T04:57:59.680+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-28T04:57:59.681+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/providers/amazon/aws/transfers/s3_to_redshift.py", line 197, in execute
+    redshift_hook.run(sql, autocommit=self.autocommit)
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 435, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 492, in _run_command
+    cur.execute(sql_statement)
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/redshift_connector/cursor.py", line 248, in execute
+    raise e
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/redshift_connector/cursor.py", line 241, in execute
+    self._c.execute(self, operation, args)
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/redshift_connector/core.py", line 1990, in execute
+    self.handle_messages(cursor)
+  File "/home/ubuntu/deevar_venv/lib/python3.12/site-packages/redshift_connector/core.py", line 2197, in handle_messages
+    raise self.error
+redshift_connector.error.ProgrammingError: {'S': 'ERROR', 'C': 'XX000', 'M': "Load into table 'amazondata' failed.  Check 'stl_load_errors' system table for details.", 'F': '../src/pg/src/backend/commands/commands_copy.c', 'L': '741', 'R': 'CheckMaxRowError'}
+[2024-06-28T04:57:59.687+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=amazon_analytics_dag, task_id=tsk_transfer_s3_to_redshift, run_id=manual__2024-06-28T04:57:21.086850+00:00, execution_date=20240628T045721, start_date=20240628T045758, end_date=20240628T045759
+[2024-06-28T04:57:59.703+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 121 for task tsk_transfer_s3_to_redshift ({'S': 'ERROR', 'C': 'XX000', 'M': "Load into table 'amazondata' failed.  Check 'stl_load_errors' system table for details.", 'F': '../src/pg/src/backend/commands/commands_copy.c', 'L': '741', 'R': 'CheckMaxRowError'}; 37388)
+[2024-06-28T04:57:59.750+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-28T04:57:59.766+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-28T04:57:59.767+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

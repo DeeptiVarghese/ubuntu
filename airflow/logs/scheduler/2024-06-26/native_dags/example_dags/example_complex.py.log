@@ -1,0 +1,28 @@
+[2024-06-26T04:34:59.457+0000] {processor.py:161} INFO - Started process (PID=20969) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T04:34:59.457+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-06-26T04:34:59.459+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:59.459+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T04:34:59.470+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T04:34:59.585+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:59.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:34:59.597+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:59.596+0000] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-06-26T04:34:59.624+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.173 seconds
+[2024-06-26T04:36:04.352+0000] {processor.py:161} INFO - Started process (PID=21037) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T04:36:04.353+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-06-26T04:36:04.355+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:04.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T04:36:04.366+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T04:36:04.396+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:04.396+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:36:04.409+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:04.409+0000] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-06-26T04:36:04.432+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2024-06-26T05:08:00.523+0000] {processor.py:161} INFO - Started process (PID=21285) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T05:08:00.524+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-06-26T05:08:00.526+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:00.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T05:08:00.537+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T05:08:00.657+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:00.657+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:00.668+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:00.667+0000] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-06-26T05:08:00.696+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.179 seconds
+[2024-06-26T05:08:52.342+0000] {processor.py:161} INFO - Started process (PID=21339) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T05:08:52.343+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-06-26T05:08:52.345+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:52.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T05:08:52.357+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-26T05:08:52.389+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:52.389+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:52.403+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:52.403+0000] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-06-26T05:08:52.430+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds

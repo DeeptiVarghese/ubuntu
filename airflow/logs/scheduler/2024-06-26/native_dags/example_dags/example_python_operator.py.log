@@ -1,0 +1,42 @@
+[2024-06-26T04:34:39.698+0000] {processor.py:161} INFO - Started process (PID=20950) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:34:39.699+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-26T04:34:39.701+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:39.701+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:34:39.715+0000] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:34:39.723+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:39.723+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:34:39.736+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:39.736+0000] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-26T04:34:39.760+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.067 seconds
+[2024-06-26T04:35:32.090+0000] {processor.py:161} INFO - Started process (PID=21004) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:35:32.091+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-26T04:35:32.093+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:32.092+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:35:32.104+0000] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:35:32.210+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:32.210+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:35:32.220+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:32.220+0000] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-26T04:35:32.244+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.161 seconds
+[2024-06-26T04:36:20.999+0000] {processor.py:161} INFO - Started process (PID=21055) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:36:21.001+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-26T04:36:21.003+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:21.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:36:21.015+0000] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T04:36:21.034+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:21.034+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:36:21.047+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:21.046+0000] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-26T04:36:21.072+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.078 seconds
+[2024-06-26T05:07:36.016+0000] {processor.py:161} INFO - Started process (PID=21266) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:07:36.017+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-26T05:07:36.019+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:36.019+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:07:36.031+0000] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:07:36.040+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:36.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:07:36.055+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:36.055+0000] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-26T05:07:36.219+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.209 seconds
+[2024-06-26T05:08:33.199+0000] {processor.py:161} INFO - Started process (PID=21320) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:08:33.200+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-26T05:08:33.202+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:33.202+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:08:33.215+0000] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:08:33.331+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:33.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:33.342+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:33.341+0000] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-26T05:08:33.369+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.177 seconds
+[2024-06-26T05:09:22.772+0000] {processor.py:161} INFO - Started process (PID=21371) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:09:22.773+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-26T05:09:22.775+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:22.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:09:22.788+0000] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-26T05:09:22.809+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:22.809+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:09:22.823+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:22.822+0000] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-26T05:09:22.849+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.084 seconds

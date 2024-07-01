@@ -1,0 +1,25 @@
+2024-06-27 21:25:44.977 [info] Log level: Info
+2024-06-27 21:25:44.977 [info] Validating found git in: "git"
+2024-06-27 21:25:44.977 [info] Using git "2.43.0" from "git"
+2024-06-27 21:25:44.977 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-27 21:25:44.977 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:44.977 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-27 21:25:44.977 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:44.978 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-27 21:25:44.978 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:44.982 [info] > git rev-parse --show-toplevel [0ms]
+2024-06-27 21:25:44.982 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:44.986 [info] > git rev-parse --show-toplevel [0ms]
+2024-06-27 21:25:44.986 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:44.989 [info] > git rev-parse --show-toplevel [0ms]
+2024-06-27 21:25:44.989 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:44.993 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-27 21:25:44.993 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:44.997 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-27 21:25:44.997 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:45.002 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-27 21:25:45.002 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:25:48.477 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-27 21:25:48.477 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-27 21:28:03.443 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-27 21:28:03.443 [info] fatal: not a git repository (or any of the parent directories): .git

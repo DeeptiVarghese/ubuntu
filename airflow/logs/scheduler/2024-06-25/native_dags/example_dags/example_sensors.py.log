@@ -1,0 +1,32 @@
+[2024-06-25T19:21:14.125+0000] {processor.py:161} INFO - Started process (PID=16366) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:21:14.126+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-25T19:21:14.128+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:14.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:21:14.138+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:21:14.268+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:14.267+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-06-25T19:21:14.282+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:14.281+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-06-25T19:21:14.292+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:14.292+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-06-25T19:21:14.293+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:14.293+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:21:14.304+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:14.304+0000] {dag.py:3118} INFO - Creating ORM DAG for example_sensors
+[2024-06-25T19:21:14.305+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:14.305+0000] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-25T19:21:14.330+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.210 seconds
+[2024-06-25T19:22:11.281+0000] {processor.py:161} INFO - Started process (PID=16417) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:22:11.283+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-25T19:22:11.285+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:11.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:22:11.295+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:22:11.318+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:11.318+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:11.331+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:11.331+0000] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-25T19:22:11.356+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.081 seconds
+[2024-06-25T19:22:59.700+0000] {processor.py:161} INFO - Started process (PID=16468) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:22:59.702+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-25T19:22:59.703+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:59.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:22:59.713+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:22:59.736+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:59.735+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:59.748+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:59.748+0000] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-25T19:22:59.773+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.079 seconds
+[2024-06-25T19:23:46.951+0000] {processor.py:161} INFO - Started process (PID=16516) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:23:46.953+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-25T19:23:46.955+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:46.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:23:46.965+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-25T19:23:46.988+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:46.988+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:23:47.001+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:47.000+0000] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-25T19:23:47.025+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.080 seconds

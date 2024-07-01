@@ -1,0 +1,49 @@
+[2024-06-26T04:34:21.956+0000] {processor.py:161} INFO - Started process (PID=20930) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:34:21.957+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-26T04:34:21.959+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:21.958+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:34:21.968+0000] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:34:21.976+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:21.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:34:21.989+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:21.989+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-26T04:34:22.014+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.064 seconds
+[2024-06-26T04:35:12.131+0000] {processor.py:161} INFO - Started process (PID=20984) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:35:12.133+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-26T04:35:12.135+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:12.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:35:12.142+0000] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:35:12.247+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:12.247+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:35:12.257+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:12.257+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-26T04:35:12.282+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.157 seconds
+[2024-06-26T04:35:55.540+0000] {processor.py:161} INFO - Started process (PID=21028) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:35:55.541+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-26T04:35:55.543+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:55.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:35:55.551+0000] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:35:55.567+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:55.567+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:35:55.580+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:55.580+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-26T04:35:55.604+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.070 seconds
+[2024-06-26T04:36:33.460+0000] {processor.py:161} INFO - Started process (PID=21069) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:36:33.462+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-26T04:36:33.464+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:33.463+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:36:33.471+0000] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T04:36:33.488+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:33.488+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:36:33.501+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:33.500+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-26T04:36:33.525+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.071 seconds
+[2024-06-26T05:07:15.153+0000] {processor.py:161} INFO - Started process (PID=21246) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:07:15.155+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-26T05:07:15.157+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:15.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:07:15.166+0000] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:07:15.184+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:15.183+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:07:15.201+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:15.201+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-26T05:07:15.226+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.078 seconds
+[2024-06-26T05:08:11.475+0000] {processor.py:161} INFO - Started process (PID=21297) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:08:11.477+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-26T05:08:11.479+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:11.479+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:08:11.486+0000] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:08:11.595+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:11.595+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:11.605+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:11.605+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-26T05:08:11.630+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.162 seconds
+[2024-06-26T05:09:01.540+0000] {processor.py:161} INFO - Started process (PID=21349) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:09:01.542+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-26T05:09:01.544+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:01.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:09:01.551+0000] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-26T05:09:01.570+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:01.569+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:09:01.583+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:01.583+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-26T05:09:01.610+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.077 seconds

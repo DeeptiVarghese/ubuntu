@@ -1,0 +1,42 @@
+[2024-06-26T04:34:43.712+0000] {processor.py:161} INFO - Started process (PID=20954) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:34:43.713+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-26T04:34:43.715+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:43.715+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:34:43.730+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:34:43.859+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:43.859+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:34:43.869+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:43.869+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-26T04:34:43.895+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.189 seconds
+[2024-06-26T04:35:36.100+0000] {processor.py:161} INFO - Started process (PID=21008) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:35:36.101+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-26T04:35:36.103+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:36.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:35:36.118+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:35:36.162+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:36.161+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:35:36.174+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:36.174+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-26T04:35:36.199+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.105 seconds
+[2024-06-26T04:36:24.576+0000] {processor.py:161} INFO - Started process (PID=21059) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:36:24.577+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-26T04:36:24.579+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:24.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:36:24.595+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T04:36:24.638+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:24.638+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:36:24.651+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:24.651+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-26T04:36:24.677+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.107 seconds
+[2024-06-26T05:07:41.366+0000] {processor.py:161} INFO - Started process (PID=21270) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:07:41.368+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-26T05:07:41.370+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:41.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:07:41.385+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:07:41.659+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:41.658+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:07:41.668+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:41.668+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-26T05:07:41.694+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.333 seconds
+[2024-06-26T05:08:37.868+0000] {processor.py:161} INFO - Started process (PID=21324) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:08:37.869+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-26T05:08:37.871+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:37.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:08:37.887+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:08:37.932+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:37.932+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:37.946+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:37.946+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-26T05:08:37.973+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.112 seconds
+[2024-06-26T05:09:26.958+0000] {processor.py:161} INFO - Started process (PID=21375) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:09:26.960+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-26T05:09:26.962+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:26.961+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:09:26.978+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-26T05:09:27.023+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:27.023+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:09:27.037+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:09:27.036+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-26T05:09:27.063+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.111 seconds

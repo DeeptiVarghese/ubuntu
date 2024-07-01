@@ -1,0 +1,32 @@
+[2024-06-25T19:21:10.122+0000] {processor.py:161} INFO - Started process (PID=16363) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:21:10.123+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-06-25T19:21:10.124+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:10.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:21:10.134+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:21:10.258+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:10.257+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_short_circuit_decorator
+[2024-06-25T19:21:10.274+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:10.273+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_short_circuit_decorator
+[2024-06-25T19:21:10.285+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:10.284+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_short_circuit_decorator
+[2024-06-25T19:21:10.285+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:10.285+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:21:10.296+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:10.296+0000] {dag.py:3118} INFO - Creating ORM DAG for example_short_circuit_decorator
+[2024-06-25T19:21:10.305+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:10.305+0000] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-06-24 00:00:00+00:00, run_after=2024-06-25 00:00:00+00:00
+[2024-06-25T19:21:10.391+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.275 seconds
+[2024-06-25T19:22:07.767+0000] {processor.py:161} INFO - Started process (PID=16414) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:22:07.769+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-06-25T19:22:07.770+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:07.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:22:07.781+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:22:07.802+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:07.802+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:07.824+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:07.824+0000] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-06-24 00:00:00+00:00, run_after=2024-06-25 00:00:00+00:00
+[2024-06-25T19:22:07.868+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.107 seconds
+[2024-06-25T19:22:57.638+0000] {processor.py:161} INFO - Started process (PID=16465) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:22:57.640+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-06-25T19:22:57.642+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:57.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:22:57.652+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:22:57.672+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:57.672+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:57.694+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:57.694+0000] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-06-24 00:00:00+00:00, run_after=2024-06-25 00:00:00+00:00
+[2024-06-25T19:22:57.718+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.086 seconds
+[2024-06-25T19:23:43.773+0000] {processor.py:161} INFO - Started process (PID=16513) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:23:43.774+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-06-25T19:23:43.776+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:43.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:23:43.786+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-06-25T19:23:43.807+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:43.806+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:23:43.827+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:43.827+0000] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-06-24 00:00:00+00:00, run_after=2024-06-25 00:00:00+00:00
+[2024-06-25T19:23:43.852+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.085 seconds

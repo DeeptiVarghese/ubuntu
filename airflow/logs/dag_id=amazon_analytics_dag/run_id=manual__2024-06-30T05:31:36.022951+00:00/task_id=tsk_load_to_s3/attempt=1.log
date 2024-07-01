@@ -1,0 +1,21 @@
+[2024-06-30T05:31:44.794+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-30T05:31:44.804+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: amazon_analytics_dag.tsk_load_to_s3 manual__2024-06-30T05:31:36.022951+00:00 [queued]>
+[2024-06-30T05:31:44.810+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: amazon_analytics_dag.tsk_load_to_s3 manual__2024-06-30T05:31:36.022951+00:00 [queued]>
+[2024-06-30T05:31:44.810+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-06-30T05:31:44.826+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): tsk_load_to_s3> on 2024-06-30 05:31:36.022951+00:00
+[2024-06-30T05:31:44.832+0000] {standard_task_runner.py:63} INFO - Started process 46131 to run task
+[2024-06-30T05:31:44.835+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'amazon_analytics_dag', 'tsk_load_to_s3', 'manual__2024-06-30T05:31:36.022951+00:00', '--job-id', '299', '--raw', '--subdir', 'DAGS_FOLDER/amazonanalytics.py', '--cfg-path', '/tmp/tmpg6y0o04z']
+[2024-06-30T05:31:44.837+0000] {standard_task_runner.py:91} INFO - Job 299: Subtask tsk_load_to_s3
+[2024-06-30T05:31:44.877+0000] {task_command.py:426} INFO - Running <TaskInstance: amazon_analytics_dag.tsk_load_to_s3 manual__2024-06-30T05:31:36.022951+00:00 [running]> on host ip-172-31-19-147.us-west-2.compute.internal
+[2024-06-30T05:31:44.963+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='myemail@domain.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='amazon_analytics_dag' AIRFLOW_CTX_TASK_ID='tsk_load_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-06-30T05:31:36.022951+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-30T05:31:36.022951+00:00'
+[2024-06-30T05:31:44.964+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-30T05:31:44.977+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-30T05:31:44.978+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'aws s3 mv /home/ubuntu/response_data_30062024053139.json s3://deevar-bucket/']
+[2024-06-30T05:31:44.987+0000] {subprocess.py:86} INFO - Output:
+[2024-06-30T05:31:45.734+0000] {subprocess.py:93} INFO - Completed 45.9 KiB/45.9 KiB (218.6 KiB/s) with 1 file(s) remainingmove: ../../home/ubuntu/response_data_30062024053139.json to s3://deevar-bucket/response_data_30062024053139.json
+[2024-06-30T05:31:45.812+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-30T05:31:45.812+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-30T05:31:45.833+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=amazon_analytics_dag, task_id=tsk_load_to_s3, run_id=manual__2024-06-30T05:31:36.022951+00:00, execution_date=20240630T053136, start_date=20240630T053144, end_date=20240630T053145
+[2024-06-30T05:31:45.890+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-30T05:31:45.911+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-30T05:31:45.917+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,35 @@
+[2024-06-26T04:34:56.779+0000] {processor.py:161} INFO - Started process (PID=20966) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:34:56.780+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-26T04:34:56.782+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:56.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:34:56.790+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:34:56.893+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:56.892+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:34:56.910+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:34:56.910+0000] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-26T04:34:56.936+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.162 seconds
+[2024-06-26T04:35:48.065+0000] {processor.py:161} INFO - Started process (PID=21020) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:35:48.066+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-26T04:35:48.068+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:48.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:35:48.076+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:35:48.092+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:48.092+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:35:48.113+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:35:48.113+0000] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-26T04:35:48.137+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.078 seconds
+[2024-06-26T04:36:45.475+0000] {processor.py:161} INFO - Started process (PID=21083) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:36:45.476+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-26T04:36:45.478+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:45.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:36:45.485+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T04:36:45.502+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:45.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T04:36:45.522+0000] {logging_mixin.py:188} INFO - [2024-06-26T04:36:45.521+0000] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-26T04:36:45.545+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.076 seconds
+[2024-06-26T05:07:57.126+0000] {processor.py:161} INFO - Started process (PID=21282) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T05:07:57.128+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-26T05:07:57.129+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:57.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T05:07:57.290+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T05:07:57.387+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:57.387+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:07:57.404+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:07:57.403+0000] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-26T05:07:57.427+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.306 seconds
+[2024-06-26T05:08:49.705+0000] {processor.py:161} INFO - Started process (PID=21336) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T05:08:49.706+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-26T05:08:49.708+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:49.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T05:08:49.716+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-26T05:08:49.734+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:49.734+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T05:08:49.757+0000] {logging_mixin.py:188} INFO - [2024-06-26T05:08:49.757+0000] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-26T05:08:49.784+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.085 seconds

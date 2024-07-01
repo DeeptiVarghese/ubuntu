@@ -1,0 +1,17 @@
+[2024-06-29T23:31:37.934+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-29T23:31:37.944+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: amazon_analytics_dag.tsk_extract_amazon_data_var manual__2024-06-29T23:31:34.092894+00:00 [queued]>
+[2024-06-29T23:31:37.949+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: amazon_analytics_dag.tsk_extract_amazon_data_var manual__2024-06-29T23:31:34.092894+00:00 [queued]>
+[2024-06-29T23:31:37.950+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-06-29T23:31:37.967+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): tsk_extract_amazon_data_var> on 2024-06-29 23:31:34.092894+00:00
+[2024-06-29T23:31:37.973+0000] {standard_task_runner.py:63} INFO - Started process 44356 to run task
+[2024-06-29T23:31:37.977+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'amazon_analytics_dag', 'tsk_extract_amazon_data_var', 'manual__2024-06-29T23:31:34.092894+00:00', '--job-id', '222', '--raw', '--subdir', 'DAGS_FOLDER/amazonanalytics.py', '--cfg-path', '/tmp/tmp5yiq0m4q']
+[2024-06-29T23:31:37.979+0000] {standard_task_runner.py:91} INFO - Job 222: Subtask tsk_extract_amazon_data_var
+[2024-06-29T23:31:38.018+0000] {task_command.py:426} INFO - Running <TaskInstance: amazon_analytics_dag.tsk_extract_amazon_data_var manual__2024-06-29T23:31:34.092894+00:00 [running]> on host ip-172-31-19-147.us-west-2.compute.internal
+[2024-06-29T23:31:38.098+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='myemail@domain.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='amazon_analytics_dag' AIRFLOW_CTX_TASK_ID='tsk_extract_amazon_data_var' AIRFLOW_CTX_EXECUTION_DATE='2024-06-29T23:31:34.092894+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-29T23:31:34.092894+00:00'
+[2024-06-29T23:31:38.099+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-29T23:31:40.476+0000] {python.py:237} INFO - Done. Returned value was: ['/home/ubuntu/response_data_29062024233137.json', 'response_data_29062024233137.csv']
+[2024-06-29T23:31:40.477+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-29T23:31:40.494+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=amazon_analytics_dag, task_id=tsk_extract_amazon_data_var, run_id=manual__2024-06-29T23:31:34.092894+00:00, execution_date=20240629T233134, start_date=20240629T233137, end_date=20240629T233140
+[2024-06-29T23:31:40.519+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-29T23:31:40.540+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-29T23:31:40.546+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

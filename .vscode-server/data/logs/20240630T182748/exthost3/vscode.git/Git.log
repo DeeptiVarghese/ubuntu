@@ -1,0 +1,61 @@
+2024-07-01 05:07:53.172 [info] Log level: Info
+2024-07-01 05:07:53.173 [info] Validating found git in: "git"
+2024-07-01 05:07:53.173 [info] Using git "2.43.0" from "git"
+2024-07-01 05:07:53.173 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-01 05:07:53.173 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-07-01 05:07:53.174 [info] Open repository: /home/ubuntu
+2024-07-01 05:07:53.176 [info] > git rev-parse --show-toplevel [47ms]
+2024-07-01 05:07:53.177 [info] > git config --get commit.template [52ms]
+2024-07-01 05:07:53.187 [info] No remotes found in the git config file.
+2024-07-01 05:07:53.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-07-01 05:07:53.189 [warning] No such branch: master.
+2024-07-01 05:07:53.194 [info] > git rev-parse --show-toplevel [12ms]
+2024-07-01 05:07:53.201 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-01 05:07:53.211 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-01 05:07:53.217 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-01 05:07:53.232 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-01 05:07:53.245 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-01 05:07:53.255 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-07-01 05:07:53.269 [info] Open repository: /home/ubuntu/capstone-project-deeptivarghese
+2024-07-01 05:07:53.288 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-01 05:07:53.291 [info] > git config --get commit.template [8ms]
+2024-07-01 05:07:53.304 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-01 05:07:53.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-07-01 05:07:53.326 [warning] ENOENT: no such file or directory, open '/home/ubuntu/capstone-project-deeptivarghese/.git/refs/remotes/origin/main'
+2024-07-01 05:07:53.329 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-01 05:07:53.340 [info] > git status -z -uall [3ms]
+2024-07-01 05:07:53.376 [info] > git merge-base refs/heads/main refs/remotes/origin/main [25ms]
+2024-07-01 05:07:53.384 [info] > git config --get commit.template [9ms]
+2024-07-01 05:07:53.389 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-07-01 05:07:53.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-07-01 05:07:53.425 [warning] ENOENT: no such file or directory, open '/home/ubuntu/capstone-project-deeptivarghese/.git/refs/remotes/origin/main'
+2024-07-01 05:07:53.426 [info] > git diff --name-status -z --diff-filter=ADMR 5c484e6a2747f8a5df5c41402462a2e9f95ef574...refs/remotes/origin/main [28ms]
+2024-07-01 05:07:53.432 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-07-01 05:07:53.441 [info] > git status -z -uall [3ms]
+2024-07-01 05:07:53.530 [info] > git status -z -uall [337ms] (cancelled)
+2024-07-01 05:07:53.922 [info] > git check-ignore -v -z --stdin [6ms]
+2024-07-01 05:07:53.924 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-01 05:07:54.467 [info] > git show --textconv :.ssh/authorized_keys [6ms]
+2024-07-01 05:07:54.468 [info] > git ls-files --stage -- /home/ubuntu/.ssh/authorized_keys [1ms]
+2024-07-01 05:08:16.059 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-01 05:08:18.377 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-01 05:08:39.886 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-07-01 05:08:39.891 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-07-01 05:08:49.853 [info] > git show --textconv :airflow/dags/amazonanalytics.py [5ms]
+2024-07-01 05:08:49.853 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/amazonanalytics.py [1ms]
+2024-07-01 05:10:05.234 [info] > git remote add origin https://github.com/DeeptiVarghese/ubuntu.git [4ms]
+2024-07-01 05:10:05.242 [info] > git config --get commit.template [4ms]
+2024-07-01 05:10:05.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-01 05:10:05.243 [warning] No such branch: master.
+2024-07-01 05:10:05.407 [info] > git status -z -uall [161ms] (cancelled)
+2024-07-01 05:10:06.699 [info] > git config --get commit.template [8ms]
+2024-07-01 05:10:06.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-07-01 05:10:06.707 [warning] No such branch: master.
+2024-07-01 05:10:06.747 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/amazonanalytics.py [8ms]
+2024-07-01 05:10:06.802 [info] > git show --textconv :airflow/dags/amazonanalytics.py [4ms]
+2024-07-01 05:10:07.228 [info] > git status -z -uall [517ms] (cancelled)
+2024-07-01 05:10:09.926 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-01 05:10:20.446 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-01 05:10:21.804 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-01 05:10:24.635 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-01 05:10:27.007 [info] > git check-ignore -v -z --stdin [4ms]

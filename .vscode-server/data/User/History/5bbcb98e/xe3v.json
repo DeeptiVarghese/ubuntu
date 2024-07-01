@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "python.createEnvironment.trigger": "off",
+    "remote.SSH.remotePlatform": {
+        "deevar-EC2": "linux"
+    }
+}

@@ -1,0 +1,32 @@
+[2024-06-25T19:21:07.453+0000] {processor.py:161} INFO - Started process (PID=16360) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:21:07.454+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-06-25T19:21:07.455+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:07.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:21:07.465+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:21:07.590+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:07.589+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_short_circuit_operator
+[2024-06-25T19:21:07.606+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:07.606+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_short_circuit_operator
+[2024-06-25T19:21:07.617+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:07.617+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_short_circuit_operator
+[2024-06-25T19:21:07.617+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:07.617+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:21:07.628+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:07.628+0000] {dag.py:3118} INFO - Creating ORM DAG for example_short_circuit_operator
+[2024-06-25T19:21:07.638+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:07.637+0000] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-06-24 00:00:00+00:00, run_after=2024-06-25 00:00:00+00:00
+[2024-06-25T19:21:07.663+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.216 seconds
+[2024-06-25T19:22:04.579+0000] {processor.py:161} INFO - Started process (PID=16411) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:22:04.581+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-06-25T19:22:04.582+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:04.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:22:04.591+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:22:04.612+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:04.611+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:04.633+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:04.633+0000] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-06-24 00:00:00+00:00, run_after=2024-06-25 00:00:00+00:00
+[2024-06-25T19:22:04.659+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.086 seconds
+[2024-06-25T19:22:50.700+0000] {processor.py:161} INFO - Started process (PID=16459) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:22:50.702+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-06-25T19:22:50.703+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:50.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:22:50.712+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:22:50.732+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:50.732+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:50.753+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:50.753+0000] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-06-24 00:00:00+00:00, run_after=2024-06-25 00:00:00+00:00
+[2024-06-25T19:22:50.778+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.084 seconds
+[2024-06-25T19:23:40.260+0000] {processor.py:161} INFO - Started process (PID=16510) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:23:40.262+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-06-25T19:23:40.263+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:40.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:23:40.271+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-06-25T19:23:40.292+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:40.291+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:23:40.312+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:40.312+0000] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-06-24 00:00:00+00:00, run_after=2024-06-25 00:00:00+00:00
+[2024-06-25T19:23:40.337+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.083 seconds

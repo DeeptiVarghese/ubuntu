@@ -1,0 +1,25 @@
+[2024-06-25T19:21:25.964+0000] {processor.py:161} INFO - Started process (PID=16375) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:21:25.965+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-25T19:21:25.967+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:25.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:21:25.972+0000] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:21:26.094+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:26.094+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:latest_only
+[2024-06-25T19:21:26.109+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:26.108+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:latest_only
+[2024-06-25T19:21:26.120+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:26.120+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:latest_only
+[2024-06-25T19:21:26.121+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:26.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:21:26.131+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:26.131+0000] {dag.py:3118} INFO - Creating ORM DAG for latest_only
+[2024-06-25T19:21:26.141+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:21:26.140+0000] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-25 12:00:00+00:00, run_after=2024-06-25 16:00:00+00:00
+[2024-06-25T19:21:26.166+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.208 seconds
+[2024-06-25T19:22:19.143+0000] {processor.py:161} INFO - Started process (PID=16426) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:22:19.145+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-25T19:22:19.146+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:19.146+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:22:19.151+0000] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:22:19.168+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:19.168+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:22:19.190+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:22:19.189+0000] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-25 12:00:00+00:00, run_after=2024-06-25 16:00:00+00:00
+[2024-06-25T19:22:19.214+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2024-06-25T19:23:08.521+0000] {processor.py:161} INFO - Started process (PID=16477) to work on /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:23:08.523+0000] {processor.py:830} INFO - Processing file /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-25T19:23:08.525+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:08.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:23:08.530+0000] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-25T19:23:08.547+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:08.547+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T19:23:08.569+0000] {logging_mixin.py:188} INFO - [2024-06-25T19:23:08.568+0000] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-25 12:00:00+00:00, run_after=2024-06-25 16:00:00+00:00
+[2024-06-25T19:23:08.595+0000] {processor.py:183} INFO - Processing /home/ubuntu/deevar_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
