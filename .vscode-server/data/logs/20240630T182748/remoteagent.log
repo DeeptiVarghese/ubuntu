@@ -76,3 +76,4 @@
 2024-07-01 05:07:49.937 [info] [<unknown>][df426b08][ExtensionHostConnection] New connection established.
 2024-07-01 05:07:49.946 [info] [<unknown>][df426b08][ExtensionHostConnection] <52920> Launched Extension Host Process.
 2024-07-01 05:07:49.992 [info] [<unknown>][abacf488][ManagementConnection] New connection established.
+2024-07-01 05:12:50.117 [info] [<unknown>][b9de0f88][ExtensionHostConnection] <50144> Extension Host Process exited with code: 0, signal: null.

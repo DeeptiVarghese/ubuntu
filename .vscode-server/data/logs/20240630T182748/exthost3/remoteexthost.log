@@ -12,3 +12,7 @@
 2024-07-01 05:07:52.933 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2024-07-01 05:10:05.596 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2024-07-01 05:10:07.204 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-01 05:11:21.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2024-07-01 05:11:34.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-01 05:12:11.468 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-01 05:14:08.674 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
