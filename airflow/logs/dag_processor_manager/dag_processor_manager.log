@@ -25080,3 +25080,40 @@ File Path                                     PID    Runtime      # DAGs    # Er
 --------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /home/ubuntu/airflow/dags/amazonanalytics.py                           1           0  0.21s           2024-07-01T04:14:39
 ================================================================================
+[2024-07-01T05:30:18.474+0000] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-01T05:30:18.480+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-01T05:30:18.482+0000] {manager.py:472} INFO - Checking for new files in /home/ubuntu/airflow/dags every 300 seconds
+[2024-07-01T05:30:18.482+0000] {manager.py:737} INFO - Searching for files in /home/ubuntu/airflow/dags
+[2024-07-01T05:30:18.484+0000] {manager.py:740} INFO - There are 1 files in /home/ubuntu/airflow/dags
+[2024-07-01T05:30:19.106+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/airflow/dags/amazonanalytics.py                           1           0  0.21s           2024-07-01T05:30:19
+================================================================================
+[2024-07-01T05:30:52.266+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/airflow/dags/amazonanalytics.py                           1           0  0.21s           2024-07-01T05:30:52
+================================================================================
+[2024-07-01T05:31:23.420+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/airflow/dags/amazonanalytics.py                           1           0  0.21s           2024-07-01T05:31:23
+================================================================================
+[2024-07-01T05:31:53.628+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/airflow/dags/amazonanalytics.py                           1           0  0.21s           2024-07-01T05:31:53
+================================================================================

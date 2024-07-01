@@ -1720,3 +1720,31 @@
 [2024-07-01T04:14:39.896+0000] {logging_mixin.py:188} INFO - [2024-07-01T04:14:39.896+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-07-01T04:14:39.916+0000] {logging_mixin.py:188} INFO - [2024-07-01T04:14:39.916+0000] {dag.py:3954} INFO - Setting next_dagrun for amazon_analytics_dag to 2024-07-01 04:00:00+00:00, run_after=2024-07-01 05:00:00+00:00
 [2024-07-01T04:14:39.941+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/amazonanalytics.py took 0.180 seconds
+[2024-07-01T05:30:18.918+0000] {processor.py:161} INFO - Started process (PID=57227) to work on /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:30:18.922+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/amazonanalytics.py for tasks to queue
+[2024-07-01T05:30:18.926+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:30:18.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:30:18.945+0000] {processor.py:840} INFO - DAG(s) 'amazon_analytics_dag' retrieved from /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:30:18.957+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:30:18.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-01T05:30:18.983+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:30:18.983+0000] {dag.py:3954} INFO - Setting next_dagrun for amazon_analytics_dag to 2024-07-01 04:00:00+00:00, run_after=2024-07-01 05:00:00+00:00
+[2024-07-01T05:30:19.018+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/amazonanalytics.py took 0.107 seconds
+[2024-07-01T05:30:52.075+0000] {processor.py:161} INFO - Started process (PID=57252) to work on /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:30:52.076+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/amazonanalytics.py for tasks to queue
+[2024-07-01T05:30:52.078+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:30:52.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:30:52.093+0000] {processor.py:840} INFO - DAG(s) 'amazon_analytics_dag' retrieved from /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:30:52.209+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:30:52.209+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-01T05:30:52.231+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:30:52.230+0000] {dag.py:3954} INFO - Setting next_dagrun for amazon_analytics_dag to 2024-07-01 05:00:00+00:00, run_after=2024-07-01 06:00:00+00:00
+[2024-07-01T05:30:52.256+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/amazonanalytics.py took 0.188 seconds
+[2024-07-01T05:31:23.226+0000] {processor.py:161} INFO - Started process (PID=57258) to work on /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:31:23.228+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/amazonanalytics.py for tasks to queue
+[2024-07-01T05:31:23.230+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:31:23.230+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:31:23.244+0000] {processor.py:840} INFO - DAG(s) 'amazon_analytics_dag' retrieved from /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:31:23.358+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:31:23.358+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-01T05:31:23.378+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:31:23.378+0000] {dag.py:3954} INFO - Setting next_dagrun for amazon_analytics_dag to 2024-07-01 05:00:00+00:00, run_after=2024-07-01 06:00:00+00:00
+[2024-07-01T05:31:23.402+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/amazonanalytics.py took 0.182 seconds
+[2024-07-01T05:31:53.436+0000] {processor.py:161} INFO - Started process (PID=57261) to work on /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:31:53.438+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/amazonanalytics.py for tasks to queue
+[2024-07-01T05:31:53.440+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:31:53.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:31:53.455+0000] {processor.py:840} INFO - DAG(s) 'amazon_analytics_dag' retrieved from /home/ubuntu/airflow/dags/amazonanalytics.py
+[2024-07-01T05:31:53.572+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:31:53.572+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-01T05:31:53.593+0000] {logging_mixin.py:188} INFO - [2024-07-01T05:31:53.593+0000] {dag.py:3954} INFO - Setting next_dagrun for amazon_analytics_dag to 2024-07-01 05:00:00+00:00, run_after=2024-07-01 06:00:00+00:00
+[2024-07-01T05:31:53.618+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/amazonanalytics.py took 0.188 seconds
